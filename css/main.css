@@ -33,14 +33,20 @@ main {
   float: left;
   width: 50%;
   margin: 0 5%;
-  border-radius: 10px;
+  border-radius: 5px;
   /* debug */
   /* height: 350px; */
   background-color: green;
 }
 
 .widget {
-  margin: 5%;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
   background-color: lightblue;
+}
+
+footer {
+  /* debug */
+  height: 100px;
+  background-color: red;
 }
