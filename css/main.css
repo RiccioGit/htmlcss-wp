@@ -25,7 +25,7 @@ aside {
   width: 20%;
   /* debug */
   /* height: 200px; */
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 main {
@@ -33,6 +33,12 @@ main {
   width: 50%;
   margin: 0 5%;
   /* debug */
-  height: 350px;
+  /* height: 350px; */
   background-color: green;
+}
+
+.widget {
+  margin: 5%;
+  border-radius: 10px;
+  background-color: lightblue;
 }
