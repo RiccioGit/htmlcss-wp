@@ -16,6 +16,8 @@ width: 80%;
 margin: 0 auto;
 }
 
+
+
 .riga::after {
   content: "";
   display: table;
