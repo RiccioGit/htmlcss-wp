@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+header {
+  background-color: yellow;
+  height: 200px;
+}
+
+#container {
+width: 80%;
+margin: 0 auto;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  /* debug */
+  height: 200px;
+  background-color: lightblue;
+}
+
+main {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  /* debug */
+  height: 350px;
+  background-color: green;
+}
